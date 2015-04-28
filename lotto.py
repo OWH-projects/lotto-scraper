@@ -330,7 +330,7 @@ lottery = {
 
 def sendEmail():
     me = 'worldheraldbot@gmail.com'
-    you = "".join(['cody.winchester@owh.com'])
+    you = ['cody.winchester@owh.com']
     pw = # password here
     msg = MIMEMultipart('alternative')
     msg['Subject'] = 'Lottery numbers for ' + this_month + ' ' + this_day + ', ' + year
